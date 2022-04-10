@@ -27,12 +27,14 @@ form {
 }
 
 table{
-	width: 580px;
+	/*width: 580px;*/
+	width: 50%;
 }
 
 table td{
 	text-align:center;
 	border:1px #38337d dotted;
+	border-radius: 20px;
 }
 
 table .sin{
@@ -48,6 +50,8 @@ table .bot{
 table .primera_fila{
 	font-size:1.5em;
 	background-color:#C0C0C0;
+	border:0px #38337d;
+	border-radius: 0px;
 }
 
 .centrado{
