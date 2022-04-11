@@ -2,14 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
-	<style>
-
-		td{
-			border: 1px dotted #FF0000;
-		}
-
-	</style>
+	<title>CRUD MVC</title>
 </head>
 <body>
 
@@ -21,14 +14,14 @@
 	?>
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 	    <table width="50%" border="0" align="center">
-	      <tr>
-	        <td class="primera_fila">Id</td>
+	      <tr class="titulos">
+	        <td class="primera_fila pirmira_fila-left">Id</td>
 	        <td class="primera_fila">Nombre</td>
 	        <td class="primera_fila">Apellido</td>
 	        <td class="primera_fila">Dirección</td>
 	        <td class="sin">&nbsp;</td>
 	        <td class="sin">&nbsp;</td>
-	        <td class="sin">&nbsp;</td>
+	        <td class="sin pirmira_fila-right">&nbsp;</td>
 	      </tr>
 
 	      <!--Formulario para insertar registros-->

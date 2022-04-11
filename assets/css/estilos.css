@@ -7,9 +7,14 @@
 */
 @charset "utf-8";
 
+
 body{
-	background-color:#ECECEC;
 	font-family: century Gothic;
+	height: 100vh;
+	background: #8DCFD7;
+	background: -webkit-linear-gradient(top left, #8DCFD7, #C332CD);
+	background:    -moz-linear-gradient(top left, #8DCFD7, #C332CD);
+	background: 		linear-gradient(to bottom right, #8DCFD7, #C332CD);
 }
 
 h1{
@@ -29,12 +34,23 @@ form {
 table{
 	/*width: 580px;*/
 	width: 50%;
+	background-color:#fff;
+	border-radius: 10px;
+	padding: 15px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(138,134,138,1);
+	   -moz-box-shadow: 5px 5px 5px 0px rgba(138,134,138,1);
+			box-shadow: 5px 5px 5px 0px rgba(138,134,138,1);
+	border-collapse: collapse;
+}
+
+.titulos {
+	background-color:#5e5c5e;
+	border-top-left-radius: 10px;
 }
 
 table td{
 	text-align:center;
-	border:1px #38337d dotted;
-	border-radius: 20px;
+	padding: 10px;
 }
 
 table .sin{
@@ -47,11 +63,17 @@ table .bot{
 	border:0;
 }
 
-table .primera_fila{
-	font-size:1.5em;
-	background-color:#C0C0C0;
-	border:0px #38337d;
-	border-radius: 0px;
+.primera_fila{
+	color: #fff;
+	font-size:1.4em;
+}
+
+.pirmira_fila-left {
+	border-top-left-radius: 10px;
+}
+
+.pirmira_fila-right {
+	border-top-right-radius: 10px;
 }
 
 .centrado{
