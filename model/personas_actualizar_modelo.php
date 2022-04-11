@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>CRUD - UPDATE</title>
-<link rel="stylesheet" type="text/css" href="hoja.css">
+
 </head>
 
 <body>
@@ -41,11 +41,9 @@
 
 ?>
 <form name="form1" method="post" action="">
-  <table width="25%" border="0" align="center">
+  <table align="center">
     <tr>
-      <td></td>
-      <td><label for="id"></label>
-      <input type="hidden" name="id" id="id" value="<?php echo $id?>"></td>
+      <input type="hidden" name="id" id="id" value="<?php echo $id?>">
     </tr>
     <tr>
       <td>Nombre</td>
@@ -63,7 +61,7 @@
       <input type="text" name="dir" id="dir" value="<?php echo $dir?>"></td>
     </tr>
     <tr>
-      <td colspan="2"><input type="submit" name="bot_actualizar" id="bot_actualizar" value="Actualizar"></td>
+      <td colspan="2" class="ultima_fila"><input type="submit" name="bot_actualizar" id="bot_actualizar" value="Actualizar" class="boton"></td>
     </tr>
   </table>
 </form>
