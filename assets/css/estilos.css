@@ -22,11 +22,6 @@ h1{
 	color: #38337d;
 }
 
-.titulos {
-	background-color:#5e5c5e;
-	border-top-left-radius: 10px;
-}
-
 .subtitulo {
 	font-size:12px;
 }
@@ -65,6 +60,7 @@ a:hover {
 }
 
 .primera_fila {
+	background-color:#5e5c5e;
 	color: #fff;
 	font-size:1.4em;
 }

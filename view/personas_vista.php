@@ -14,7 +14,7 @@
 	?>
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 	    <table align="center">
-	      <tr class="titulos">
+	      <tr>
 	        <td class="primera_fila pirmira_fila-left">Id</td>
 	        <td class="primera_fila">Nombre</td>
 	        <td class="primera_fila">Apellido</td>
