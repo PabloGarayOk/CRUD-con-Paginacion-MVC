@@ -2,7 +2,7 @@
 
 ####Para crear la BBDD.
 
-Para construir este CRUD con MVC primero debemos crear nuestra BBDD dentro de la tabla &quot;pruebas&quot;, con el comando que se encuntra en el archivo &quot;create data base.sql&quot;.
+Para construir este CRUD con MVC primero debemos crear nuestra tabla &quot;datos_usuarios&quot; dentro de la BBDD &quot;pruebas&quot;, con el comando que se encuntra en el archivo &quot;create data base.sql&quot;.
 
     CREATE TABLE pruebas.datos_usuarios ( Id INT NOT NULL AUTO_INCREMENT , Nombre VARCHAR(30) NOT NULL , Apellido VARCHAR(30) NOT NULL , Direccion VARCHAR(50) NOT NULL , PRIMARY KEY (Id)) ENGINE = InnoDB;
 
