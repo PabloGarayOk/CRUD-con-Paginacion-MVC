@@ -13,7 +13,7 @@ Para construir este CRUD con MVC primero debemos crear nuestra tabla &quot;datos
 2 - Ubicarse en la linea 9 y modificar el valor la variable &quot;$reg_por_pag&quot; por el valor deseado, y guardar el archivo.
 
     <?php
-	$reg_por_pag = 2;
+      $reg_por_pag = 2;
     ?>
 
 #### Para ver el CRUD online.
