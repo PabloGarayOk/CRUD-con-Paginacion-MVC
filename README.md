@@ -1,25 +1,53 @@
-## Bienvenido al repositorio de Pablo Garay.
+# PHP CRUD with MVC Architecture
 
-#### Para crear la BBDD.
+This project is a basic CRUD (Create, Read, Update, Delete) application developed in PHP using the MVC (Model-View-Controller) architecture and Object-Oriented Programming principles. It includes server-side pagination and demonstrates a clean separation of concerns between data access, business logic, and presentation.
 
-Para construir este CRUD con MVC primero debemos crear nuestra tabla &quot;datos_usuarios&quot; dentro de la BBDD &quot;pruebas&quot;, con el comando que se encuntra en el archivo &quot;create data base.sql&quot;.
+The application allows users to:
+- Create new records
+- View a paginated list of users
+- Update existing records
+- Delete records
 
-    CREATE TABLE pruebas.datos_usuarios ( Id INT NOT NULL AUTO_INCREMENT , Nombre VARCHAR(30) NOT NULL , Apellido VARCHAR(30) NOT NULL , Direccion VARCHAR(50) NOT NULL , PRIMARY KEY (Id)) ENGINE = InnoDB;
+Each operation is reflected immediately in the interface, maintaining a simple and functional user experience.
 
-#### Para cambiar la cantidad de registros que se muestran por pagina.
+## Technologies & Concepts
+- PHP (OOP)
+- MVC architecture
+- MySQL
+- Server-side pagination
+- Basic CRUD operations
+- HTML / CSS
+- Apache / Linux environment
 
-1 - Ir al archivo &quot;model/paginacion.php&quot;
+## Database setup
 
-2 - Ubicarse en la linea 9 y modificar el valor la variable &quot;$reg_por_pag&quot; por el valor deseado, y guardar el archivo.
+To run this project, create the database and table using the SQL script provided in `create data base.sql`, or execute the following query:
 
-    <?php
-      $reg_por_pag = 2;
-    ?>
+```sql
+CREATE TABLE pruebas.datos_usuarios (
+  Id INT NOT NULL AUTO_INCREMENT,
+  Nombre VARCHAR(30) NOT NULL,
+  Apellido VARCHAR(30) NOT NULL,
+  Direccion VARCHAR(50) NOT NULL,
+  PRIMARY KEY (Id)
+) ENGINE = InnoDB;
+```
+## Pagination configuration
 
-#### Para ver el CRUD online.
+To change the number of records displayed per page:
 
-[Ver CRUD online](https://pablogaray.com.ar/portfolio/crud_con_paginacion_mvc/)
+1. Open `model/paginacion.php`
+2. Modify the value of `$reg_por_pag` (line 9)
 
-[Visita mi sitio web](https://pablogaray.com.ar)
+```php
+$reg_por_pag = 2;
+```
+## Live demo
 
-### Fin.
+CRUD MVC
+[View online demo](https://crud.mvc.pablogaray.com.ar/index.php)
+
+## Author
+
+Pablo Garay  
+[Personal website](https://pablogaray.com.ar)
